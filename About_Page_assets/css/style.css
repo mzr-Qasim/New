@@ -174,6 +174,10 @@ li.hamburger-icon{
 
 
 
+.fi-ss-pharmacy{
+    font-size: 12px;
+    margin-left: 15px;
+}
 
 
 
@@ -192,29 +196,23 @@ li.hamburger-icon{
 }
 
 
-
-.About-Medical-World-Center-Section .card-content-1 .line-1{
-    margin-top: 20px;
-    height: 4px;
-    background-color: rgba(64,208,198,255);
-}
-.About-Medical-World-Center-Section .card-content-1 .line-2{
-    margin-top: 10px;
-    height: 4px;
-    background-color:  rgba(64,208,198,255);
-}
-.About-Medical-World-Center-Section .card-content-2 h3{
+.About-Medical-World-Center-Section .rotate-col .rotate-text{
+    transform: rotate(-90deg);
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    align-items: center;
+}
+
+.About-Medical-World-Center-Section .rotate-col .rotate-text h3{
+    white-space: nowrap;
     font-size: 20px;
-    padding: 15px 5px;
+    padding: 15px 150px;
     border: 5px solid white;
     background-color: rgba(64,208,198,255);
     border-radius: 25px;
     color: white;
-    margin-left: -50px;
+    
+
 }
 .About-Medical-World-Center-Section .card-content-2 img.image-top-margin{
     margin-top: 25px;
@@ -344,5 +342,40 @@ li.hamburger-icon{
     color: rgba(64,208,198,255);
     display: block;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+ 
+
+    .About-Medical-World-Center-Section .rotate-col .rotate-text{
+        margin-top: 30px;
+        transform: rotate(0deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .About-Medical-World-Center-Section .rotate-col .rotate-text h3{
+        white-space: nowrap;
+        font-size: 18px;
+        padding: 15px 25px;
+        border: 3px solid white;
+        background-color: rgba(64,208,198,255);
+        border-radius: 25px;
+        color: white;
+        
+    
+    }
+  
+    
+}
+
+
 
 
