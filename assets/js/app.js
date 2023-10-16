@@ -47,20 +47,22 @@ jQuery(document).ready(function($) {
             center:true,
             nav:true,
             loop:true,
+            dots:false,
         },
         600:{
             items:2,
             nav:true,
             loop:false,
+            dots:true,
         },
         1000:{
             center:true,
             loop:true,
             items:3,
             nav:false,
-            loop:true,
-            autoplay:false,
-        }
+            autoplay:true,
+        },
+
     }
       
     });
@@ -108,6 +110,8 @@ jQuery(document).ready(function($) {
               document.querySelector('html').classList.remove('playvideo');
            playButton.classList.remove('vplay');
       };
+    
+        
 
 
     

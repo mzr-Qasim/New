@@ -192,7 +192,7 @@ li.hamburger-icon{
 }
 
 .About-Medical-World-Center-Section img{
-    border-radius: 5%;
+    border-radius: none;
 }
 
 
@@ -201,12 +201,13 @@ li.hamburger-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 100px;
 }
 
 .About-Medical-World-Center-Section .rotate-col .rotate-text h3{
     white-space: nowrap;
     font-size: 20px;
-    padding: 15px 150px;
+    padding: 15px 50px;
     border: 5px solid white;
     background-color: rgba(64,208,198,255);
     border-radius: 25px;
@@ -342,6 +343,392 @@ li.hamburger-icon{
     color: rgba(64,208,198,255);
     display: block;
 }
+
+
+
+
+/* Cards-section */
+
+.card {
+    border-radius: 0;
+    border: none;
+    margin-top: 30px;
+    padding-top: 25px;
+}
+
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.Medical-services-cards-section{
+    background-color: rgba(244,248,249,255);
+    margin-top: 50px;
+}
+
+
+
+.Medical-services-cards-section .Card-content .card-main-icon i{ 
+    margin-right: 25px;
+    font-size: 40px;
+    color: rgba(64,208,198,255);
+}
+
+.Medical-services-cards-section .services-card-heading h5{
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+.Medical-services-cards-section .services-card-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.Medical-services-cards-section .services-card-heading h2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(64,208,198,255);
+}
+
+
+
+
+.Medical-services-cards-section .Card-content h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Medical-services-cards-section .Card-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Medical-services-cards-section .Card-content a.card-button {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.Medical-services-cards-section .Card-content a.card-button i.card-button-icon {
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.Second-card-row{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.Product-owl-carousel-section{
+    font-family: 'Poppins', sans-serif;
+}
+.Product-owl-carousel-section .heading h5{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.Product-owl-carousel-section .heading h5:before{
+    position: absolute;
+    content: "";
+    display: block;
+    background-color:rgba(64,208,198,255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: -210px;
+}
+
+.Product-owl-carousel-section .heading h5:after{
+    content: "";
+    display: block;
+    background-color:rgba(64,208,198,255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 6px;
+
+}
+
+
+
+
+.Product-owl-carousel-section .heading h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+
+
+}
+
+.Product-owl-carousel-section .heading h2 span{
+    color:rgba(64,208,198,255);
+
+}
+
+
+
+
+/* Product-owl-carousel-section*/ 
+
+
+.Product-owl-carousel-section{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Product-owl-carousel{
+    margin-top: 30px;
+}
+
+.carousel-button a {
+    text-decoration: none;
+}
+
+.carousel-button a .fi-ss-pharmacy{
+    font-size: 20px;
+    color: white;
+    background-color:rgba(64,208,198,255);
+    padding: 10px;
+}
+
+
+.carousel-content{
+    background-color:rgba(64,208,198,255);
+    padding-left: 25px;
+    padding-right: 25px;
+    opacity: 0.9;
+
+}
+.carousel-content h3{
+    padding-top: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.carousel-content h5{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+
+
+/* Accordion Owl Carousel*/ 
+.owl-item > div {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: margin 0.4s ease;
+}
+.owl-item > div a {
+    display: none;
+}
+.owl-item > div .carousel-content{
+    display: none;
+}
+
+.owl-item.center > div {
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    background: blue;
+
+
+}
+.owl-item.center > div img{
+    opacity: .8;
+
+}
+
+
+.owl-item.center > div .carousel-button a {
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+.owl-item.center > div .carousel-button a .fi-ss-pharmacy:hover {
+    color:rgba(64,208,198,255);
+    background-color: black;
+}
+
+
+
+
+.owl-item.center > div .carousel-content{
+    display: block;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+
+
+ 
+.owl-item:not(.center) > div:hover {
+    opacity: .75;
+
+    
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    margin: 0 30px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* Testimonial Section */
+
+
+.Testimonial-section{
+    margin-top: 100px;
+}
+
+.Testimonial-section .testimonial-heading h5{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.Testimonial-section .testimonial-heading h5:before{
+    position: absolute;
+    content: "";
+    display: block;
+    background-color:rgba(64,208,198,255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: -210px;
+}
+
+.Testimonial-section .testimonial-heading h5:after{
+    content: "";
+    display: block;
+    background-color:rgba(64,208,198,255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 6px;
+
+}
+
+
+
+
+.Testimonial-section .testimonial-heading h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+
+
+}
+
+.Testimonial-section .testimonial-heading h2 span{
+    color:rgba(64,208,198,255);
+
+}
+
+/* Testimonial Section Owl Carousel*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

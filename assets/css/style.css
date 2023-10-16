@@ -935,6 +935,211 @@ html:not(.playvideo) .sound-ctrl {
 
 
 
+/*  */
+
+
+.shadow-effect {
+    background: rgba(244,248,249,255);
+    padding: 80px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+}
+
+.shadow-effect .media-icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.shadow-effect .media-icons a{
+    text-decoration: none;
+}
+
+.shadow-effect .media-icons a i{
+    display: none;
+    padding: 10px;
+    background-color: rgba(7,30,64,255);
+    color: white;
+    margin: 1px 0;
+}
+.shadow-effect .media-icons a i:hover{
+    color: rgba(64,208,198,255);
+}
+
+
+
+#customers-testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+.testimonial-name {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -35px auto 0;
+    display: table;
+    width: auto;
+    background: white;
+    padding: 9px 35px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+.testimonial-name h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.testimonial-name h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+#customers-testimonials .item {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom:80px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    margin: 0 8%;
+    padding: 10% 0;
+    
+}
+#customers-testimonials .owl-item .item {
+    pointer-events: none;
+
+}
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+    pointer-events: all;
+
+}
+
+
+.img-bgc {
+    border-radius: 50%;
+}
+
+
+
+#customers-testimonials .owl-item.active.center .media-icons i{
+    display: block;
+}
+
+#customers-testimonials .owl-item.active.center img{
+    border: 8px solid rgba(64,208,198,255);
+    opacity: 1;
+}
+#customers-testimonials .owl-item.active.center i.profile-link{
+    display: flex;
+}
+
+
+
+.owl-carousel .owl-item img {
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    margin: 0 auto 17px;
+    border: 8px solid white;
+    opacity: 0.5;
+
+}
+.owl-carousel .owl-item a.anchor-profile-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.owl-carousel .owl-item a i.profile-link{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgba(64,208,198,255);
+    border: 5px solid white;
+    border-radius: 50%;
+
+}
+
+
+
+.owl-carousel .owl-item a i.profile-link:hover{
+    color:  rgba(64,208,198,255);
+    background-color: rgba(7,30,64,255);
+
+
+}
+
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+    background: rgba(64,208,198,255);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+margin: 50px 0;
+
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+    display: inline-block;
+    height: 40px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 40px;
+    border-radius: 50%;
+    border: 5px solid rgba(64,208,198,255);
+}
+
+
+
+
+
+
+
+/* Digital-system-video-modal-box */
+
+
+.Digital-system-video-modal-box{
+
+}
+.Digital-system-video-modal-box .thumbnail-img{
+    position: relative;
+    background: blue;
+    border-radius: 30px;
+}
+
+.Digital-system-video-modal-box .thumbnail-img img{
+    opacity: .7;
+    border-radius: 30px;
+}
+
+.Digital-system-video-modal-box .content{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
 
 
 
@@ -944,52 +1149,19 @@ html:not(.playvideo) .sound-ctrl {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Digital-system-video-modal-box-anchor-button{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.Digital-system-video-modal-box-anchor-button a{ 
+    text-decoration: none;
+    color: white;
+    background-color: rgba(64,208,198,255) ;
+    border: 10px solid  rgba(64,208,198,255);
+    border-radius: 40px;
+    padding:0 15px;
+}
 
 
 
